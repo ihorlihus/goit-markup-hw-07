@@ -68,7 +68,6 @@
 
   position: relative;
 
-  opacity: (0);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--animation-timing-function);
@@ -94,7 +93,6 @@
 
   &:hover,
   &:focus {
-    opacity: (1);
     color: var(--hover-color);
     outline: none;
   }
@@ -133,7 +131,6 @@
 
   color: var(--second-text-color);
 
-  opacity: (0);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--animation-timing-function);
@@ -151,14 +148,12 @@
 
   color: var(--second-text-color);
 
-  opacity: (0);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--animation-timing-function);
 
   &:hover,
   &:focus {
-    opacity: (1);
     color: var(--button-color);
     outline: none;
   }

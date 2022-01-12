@@ -1,8 +1,13 @@
 @import './utils/variables';
 @import './utils/reset';
 @import './utils/hidden';
+
 @import './components/container';
 @import './components/section';
+@import './components/follow';
+@import './components/portfolio-bloks';
+@import './components/modal';
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/benefits';
@@ -11,7 +16,4 @@
 @import './layout/team';
 @import './layout/customers';
 @import './layout/footer';
-@import './components/follow';
 @import './layout/portfolio';
-@import './components/portfolio-bloks';
-@import './components/modal';

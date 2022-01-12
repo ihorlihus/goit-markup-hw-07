@@ -31,14 +31,12 @@
   box-sizing: border-box;
   border-radius: 4px;
 
-  opacity: (0);
   transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: var(--animation-timing-function);
 
   &:hover,
   &:focus {
-    opacity: (1);
     color: var(--hover-color);
     border-color: var(--hover-color);
     /* transition: transform 1000ms var(--animation-timing-function); */
