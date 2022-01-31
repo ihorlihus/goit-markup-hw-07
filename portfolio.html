@@ -12,77 +12,78 @@
 </head>
 <body>
     <header class="header">
-        <div class="container cont-header">
-            <div class="nav">
-                <a class="link nav-link" href="https://ihorlihus.github.io/goit-markup-hw-07/" target="_blank"
-                    rel="noopener noreferrer">
-                    <span class="logo-blue">Web</span>
-                    <span class="logo-black">Studio</span>
-                </a>
-                <ul class="list contacts-hb">
-                    <li class="nav-item">
-                        <a class="link header-link" href="./index.html">
-                            Студия</a>
+            <div class="header__conteiner container">
+                <div class="nav">
+                    <a class="link nav__logo-link" href="https://ihorlihus.github.io/goit-markup-hw-07/" target="_blank"
+                        rel="noopener noreferrer">
+                        <span class="nav__logo">Web</span>
+                        <span class="nav__logo nav__dark">Studio</span>
+                    </a>
+                    <ul class="list nav__list">
+                        <li class="nav__item">
+                            <a class="link nav__link" href="./index.html">
+                                Студия</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="link nav__activ page" href="./portfolio.html">
+                                Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="link nav__link" href="https://ihorlihus.github.io/goit-markup-hw-07/">
+                                Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="list nav__list">
+                    <li class="nav__contacts-item">
+                        <a class="link nav__contacts-link" href="mailto:info@devstudio.com">
+                            <svg class="nav__icon nav__icon-envelope">
+                                <use href="./images/symbol-defs.svg#icon-envelope">
+                                </use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="link activ page" href="./portfolio.html">
-                            Портфолио</a>
+                    <li class="nav__contacts-item">
+                        <a class="link nav__contacts-link" href="tel:+380961111111">
+                            <svg class="nav__icon nav__icon-smartphone">
+                                <use href="./images/symbol-defs.svg#icon-smartphone">
+                                </use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="link header-link" href="https://ihorlihus.github.io/goit-markup-hw-07/">
-                            Контакты</a>
-                    </li>
+                </ul>
+        
             </div>
-            </ul>
-            <ul class="list contacts-hb">
-                <li class="contacts-header-item">
-                    <a class="link contacts-header" href="mailto:info@devstudio.com">
-                        <svg class="envelope">
-                            <use href="./images/symbol-defs.svg#icon-envelope">
-                            </use>
-                        </svg>
-                        info@devstudio.com
-                    </a>
-                </li>
-                <li class="contacts-header-item">
-                    <a class="link contacts-header" href="tel:+380961111111">
-                        <svg class="smartphone">
-                            <use href="./images/symbol-defs.svg#icon-smartphone">
-                            </use>
-                        </svg>
-                        +38 096 111 11 11
-                    </a>
-                </li>
-            </ul>    
-        </div>
     </header>
     <main>
         <section class="section">
             <div class="container">
                 <h1 class="visually-hidden">Текст, который будет скрыт</h1>
-                    <ul class="list pf-btn-list">
-                        <li class="pf-btn-item">
-                            <button class="pf-btn" type="button"> 
+                    <ul class="list button__list">
+                        <li class="button__item">
+                            <button class="button button__portfolio" type="button"> 
                                 Все
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button class="pf-btn" type="button">
+                        <li class="button__item">
+                            <button class="button button__portfolio" type="button">
                                 Веб-сайты
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button class="pf-btn" type="button">
+                        <li class="button__item">
+                            <button class="button button__portfolio" type="button">
                                 Приложения
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button class="pf-btn" type="button">
+                        <li class="button__item">
+                            <button class="button button__portfolio" type="button">
                                 Дизайн
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button class="pf-btn" type="button">
+                        <li class="button__item">
+                            <button class="button button__portfolio" type="button">
                                 Маркетинг
                             </button>
                         </li>             
@@ -280,74 +281,77 @@
     </section>
     </main>
         <footer class="footer">
-            <div class="container footer-contr">
-                <div class="adress-contr">
+            <div class="container footer__container">
+                <div class="footer__adress">
                     <a class="link" href="https://ihorlihus.github.io/goit-markup-hw-07/" target="_blank"
                         rel="noopener noreferrer">
-                        <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
+                        <span class="nav__logo">Web</span>
+                        <span class="nav__logo nav__light">Studio</span>
                     </a>
                     <address>
-                        <ul class="list adress-f-list">
-                            <li class="f-contacts">
-                                <a class="link footer-address" href="https://goo.gl/maps/HHxkjhj5mUynRrnk6" target="_blank"
-                                    rel="noopener noreferrer">
+                        <ul class="list footer__adress-list">
+                            <li class="footer__adress-item">
+                                <a class="link footer__address-map-link" href="https://goo.gl/maps/HHxkjhj5mUynRrnk6"
+                                    target="_blank" rel="noopener noreferrer">
                                     г. Киев, пр-т Леси Украинки, 26
                                 </a>
                             </li>
-                            <li class="f-contacts">
-                                <a class="link contacts no-italics" href="mailto:info@example.com">info@example.com</a>
+                            <li class="footer__adress-item">
+                                <a class="link footer__contacts-link no-italics"
+                                    href="mailto:info@example.com">info@example.com</a>
                             </li>
-                            <li class="f-contacts">
-                                <a class="link contacts no-italics" href="tel:+380991111111">+38 099 111 11 11</a>
+                            <li class="footer__adress-item">
+                                <a class="link footer__contacts-link no-italics" href="tel:+380991111111">+38 099 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 <div class="follow">
-                    <h3 class="follow-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-                    <ul class="list follow-list">
-                        <li class="follow-item">
-                            <a class="link follow-link" href="">
-                                <svg class="follow-icon">
+                    <h3 class="follow__title">Присоединяйтесь</h3>
+                    <ul class="list follow__list">
+                        <li class="follow__item">
+                            <a class="link follow__link" href="">
+                                <svg class="follow__icon">
                                     <use href="./images/symbol-defs.svg#icon-instagram-2">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="follow-item">
-                            <a class="link follow-link" href="">
-                                <svg class="follow-icon">
+                        <li class="follow__item">
+                            <a class="link follow__link" href="">
+                                <svg class="follow__icon">
                                     <use href="./images/symbol-defs.svg#icon-twitter-1">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="follow-item">
-                            <a class="link follow-link" href="">
-                                <svg class="follow-icon">
+                        <li class="follow__item">
+                            <a class="link follow__link" href="">
+                                <svg class="follow__icon">
                                     <use href="./images/symbol-defs.svg#icon-facebook-1">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="follow-item">
-                            <a class="link follow-link" href="">
-                                <svg class="follow-icon">
+                        <li class="follow__item">
+                            <a class="link follow__link" href="">
+                                <svg class="follow__icon">
                                     <use href="./images/symbol-defs.svg#icon-linkedin-1">
                                     </use>
                                 </svg>
                             </a>
                         </li>
+                    </ul>
                 </div>
                 <form action="#">
                     <p class="follow-input">
                         Подпишитесь на рассылку</p>
                     <div class="follow-input-container">
                         <input type="text" name="follow-email" class="follow-email-input transition" placeholder="E-mail">
-                        <button type="submit" class="follow-btn">
+                        <button type="submit" class="button button__footer">
                             <span>Подписаться</span>
                             <span><svg class="icon-send">
-                                    <use href="images/symbol-defs.svg#icon-icon-send" width="24" heigh="24"></use>
+                                    <use href="images/symbol-defs.svg#icon-icon-send"></use>
                                 </svg></span>
                         </button>
                     </div>

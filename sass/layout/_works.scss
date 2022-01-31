@@ -1,4 +1,4 @@
-.works-title {
+.works__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -10,12 +10,17 @@
   color: var(--main-text-color);
 }
 
-.works {
+.works__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__image {
   position: relative;
   display: flex;
 }
 
-.works-subtext {
+.works__subtext {
   position: absolute;
   top: 0;
   left: 0;

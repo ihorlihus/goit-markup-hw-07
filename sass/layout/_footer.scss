@@ -4,22 +4,22 @@
   background-color: var(--secondary-bg-color);
 }
 
-.footer-contr {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.adress-contr {
-  display: block;
+
+.footer__adress {
   margin-right: 70px;
 }
 
-.adress-f-list {
+.footer__adress-list {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-.f-contacts {
+.footer__adress-item {
   display: flex;
 
   &:not(:last-child) {
@@ -27,7 +27,7 @@
   }
 }
 
-.footer-address {
+.footer__address-map-link {
   display: flex;
   font-style: normal;
   line-height: 1.71;
@@ -37,6 +37,23 @@
   &:hover,
   &:focus {
     outline: none;
+  }
+}
+
+.footer__contacts-link {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--animation-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-bg-color);
   }
 }
 
