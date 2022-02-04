@@ -59,8 +59,7 @@
                                         +38 096 111 11 11
                                     </a>
                                 </li>
-                            </ul>
-                    
+                            </ul>                    
             </div>
         </header>
         <main>
@@ -135,35 +134,29 @@
                 <div class="container">
                     <h2 class="works__title">Чем мы занимаемся</h2>
                         <ul class="list works__list">
-                            <li>
-                                <div class="works__image">
+                            <li class="works__image">
                                     <img 
                                         src="./images/img1.jpg" 
                                         alt="написание кода"
                                         width="370"
                                         height="294">
                                         <p class="works__subtext">Десктопные приложения</p>
-                                    </div>
                                 </li>
-                            <li>
-                                <div class="works__image">
+                            <li class="works__image">
                                     <img 
                                         src="./images/img2.jpg" 
                                         alt="адаптация сайтов к мобильным устройствам"
                                         width="370"
                                         height="294">
                                 <p class="works__subtext">Мобильные приложения</p>
-                                </div>
                                 </li>
-                            <li>
-                                <div class="works__image">
+                            <li class="works__image">
                                     <img 
                                         src="./images/img3.jpg" 
                                         alt="стилизация сайта" 
                                         width="370" 
                                         height="294">
                                     <p class="works__subtext">Дизайнерские решения</p>
-                                    </div>
                                     </li>
                                 </ul>
                         </div>
@@ -493,7 +486,9 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <p class="visually-hidden">lorem</p>
-                <button type="button" data-modal-close>
+                <button type="button" 
+                        class="modal-close"
+                        data-modal-close>
                     <svg class="close-icon">
                         <use href="./images/symbol-defs.svg#icon-close">
                         </use>

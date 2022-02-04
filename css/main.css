@@ -290,21 +290,35 @@ img {
   pointer-events: none;
 }
 
-.close-icon {
+.modal-close {
   position: absolute;
   width: 30px;
   height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   left: 490px;
   top: 8px;
   background: var(--main-bg-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: fill 250ms linear;
   transition: fill 250ms linear;
 }
 
-.close-icon:hover, .close-icon:focus {
+.modal-close:hover, .modal-close:focus {
   fill: var(--hover-color);
+}
+
+.close-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .modal {
@@ -585,6 +599,7 @@ img {
   color: var(--main-text-color);
   padding: 6px 22px;
   background: var(--accent-bg-color);
+  font-weight: 500;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
   -webkit-transition-duration: 250ms;
